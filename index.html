@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Learning Hemraj - सरकारी योजनाओं, ऑनलाइन सेवाओं और उपयोगी जानकारी की आसान जानकारी।">
+<title>The Learning Hemraj | सरकारी योजनाओं की जानकारी</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,"Noto Sans Devanagari",sans-serif;background:#f5f7fb;color:#172033;line-height:1.6}
+a{text-decoration:none}
+.header{background:linear-gradient(135deg,#123b8d,#1769c2);color:#fff}
+.nav{max-width:1100px;margin:auto;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-size:25px;font-weight:800}
+.logo span{display:block;font-size:12px;font-weight:400;opacity:.9}
+.nav a{color:#fff;margin-left:18px;font-size:14px}
+.hero{max-width:1100px;margin:auto;padding:58px 20px 70px;display:grid;grid-template-columns:1.25fr .75fr;gap:35px;align-items:center}
+.hero h1{font-size:46px;line-height:1.15;margin-bottom:15px}
+.hero h1 span{color:#ffd54a}
+.hero p{font-size:18px;opacity:.95;margin-bottom:25px}
+.btn{display:inline-block;background:#ffb300;color:#172033;padding:12px 20px;border-radius:10px;font-weight:700;margin:5px 5px 5px 0}
+.btn.secondary{background:#fff;color:#123b8d}
+.hero-card{background:#fff;color:#172033;padding:28px;border-radius:20px;box-shadow:0 15px 40px #071a4028}
+.hero-card h3{margin-bottom:12px;color:#123b8d}
+.search{max-width:1100px;margin:-25px auto 30px;padding:0 20px}
+.search input{width:100%;padding:16px 18px;border:1px solid #d8deea;border-radius:12px;font-size:16px;outline:none;box-shadow:0 6px 20px #17203312}
+.section{max-width:1100px;margin:0 auto;padding:35px 20px}
+.section-title{text-align:center;margin-bottom:25px}
+.section-title h2{font-size:30px}
+.section-title p{color:#667085}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:#fff;border:1px solid #e7eaf0;border-radius:16px;padding:22px;box-shadow:0 8px 25px #1720330b;transition:.2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px #17203316}
+.icon{font-size:34px;margin-bottom:8px}
+.card h3{margin-bottom:6px}
+.card p{color:#667085;font-size:14px;margin-bottom:14px}
+.card a{color:#1258a6;font-weight:700}
+.notice{background:#fff8e1;border-left:5px solid #ffb300;border-radius:12px;padding:18px;margin-top:20px}
+.video{background:#111;color:#fff;border-radius:16px;padding:28px;text-align:center}
+.video p{opacity:.8;margin:8px 0 16px}
+.footer{background:#101828;color:#fff;margin-top:40px}
+.footer-inner{max-width:1100px;margin:auto;padding:35px 20px;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.footer small{color:#98a2b3}
+@media(max-width:800px){
+ .nav{align-items:flex-start}.nav-links{display:none}
+ .hero{grid-template-columns:1fr;padding-top:40px}.hero h1{font-size:36px}
+ .grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:520px){
+ .grid{grid-template-columns:1fr}.logo{font-size:21px}
+ .hero{padding-bottom:50px}.hero p{font-size:16px}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <div class="logo">THE LEARNING HEMRAJ<span>सरकारी योजनाओं की आसान जानकारी</span></div>
+    <div class="nav-links">
+      <a href="#home">होम</a>
+      <a href="#yojana">योजनाएँ</a>
+      <a href="#videos">वीडियो</a>
+      <a href="#about">हमारे बारे में</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div>
+      <h1>सरकारी योजनाओं की <span>सही और आसान जानकारी</span></h1>
+      <p>प्रधानमंत्री आवास, राशन कार्ड, समग्र ID, वोटर कार्ड और अन्य ऑनलाइन सेवाओं की जानकारी एक ही जगह।</p>
+      <a class="btn" href="#yojana">जानकारी देखें</a>
+      <a class="btn secondary" href="#videos">YouTube Videos</a>
+    </div>
+    <div class="hero-card">
+      <h3>🔎 आज क्या खोज रहे हैं?</h3>
+      <p>नीचे दी गई योजनाओं में से अपनी जरूरत की जानकारी चुनें। सरकारी वेबसाइट पर जाने से पहले यहाँ आसान भाषा में प्रक्रिया समझें।</p>
+      <div class="notice">⚠️ सरकारी वेबसाइट पर कोई भी जानकारी भरने से पहले URL और वेबसाइट की पहचान जरूर जांचें।</div>
+    </div>
+  </section>
+</header>
+
+<div class="search">
+  <input id="searchBox" type="search" placeholder="🔍 योजना खोजें... जैसे PM Awas, Ration Card, Samagra ID">
+</div>
+
+<main>
+<section class="section" id="yojana">
+  <div class="section-title">
+    <h2>लोकप्रिय सेवाएँ</h2>
+    <p>जल्द ही हर सेवा के लिए अलग विस्तृत पेज जोड़ा जा सकता है।</p>
+  </div>
+
+  <div class="grid" id="cards">
+    <article class="card" data-search="pm awas प्रधानमंत्री आवास आवास योजना">
+      <div class="icon">🏠</div><h3>प्रधानमंत्री आवास</h3>
+      <p>PMAY से जुड़ी सूची, स्टेटस और प्रक्रिया की जानकारी।</p>
+      <a href="https://pmayg.nic.in/" target="_blank" rel="noopener">Official Website →</a>
+    </article>
+
+    <article class="card" data-search="ration card राशन कार्ड">
+      <div class="icon">🍚</div><h3>राशन कार्ड</h3>
+      <p>राशन कार्ड आवेदन, स्टेटस और संबंधित ऑनलाइन सेवाओं की जानकारी।</p>
+      <a href="#" onclick="comingSoon(event)">जानकारी देखें →</a>
+    </article>
+
+    <article class="card" data-search="samagra id समग्र आईडी">
+      <div class="icon">🆔</div><h3>समग्र ID</h3>
+      <p>समग्र ID से जुड़ी ऑनलाइन प्रक्रिया और उपयोगी जानकारी।</p>
+      <a href="#" onclick="comingSoon(event)">जानकारी देखें →</a>
+    </article>
+
+    <article class="card" data-search="voter card वोटर कार्ड मतदाता">
+      <div class="icon">🗳️</div><h3>वोटर कार्ड</h3>
+      <p>मतदाता सेवाओं और ऑनलाइन प्रक्रिया की जानकारी।</p>
+      <a href="#" onclick="comingSoon(event)">जानकारी देखें →</a>
+    </article>
+
+    <article class="card" data-search="aadhaar आधार">
+      <div class="icon">🪪</div><h3>आधार</h3>
+      <p>आधार से जुड़ी सामान्य ऑनलाइन सेवाओं की जानकारी।</p>
+      <a href="#" onclick="comingSoon(event)">जानकारी देखें →</a>
+    </article>
+
+    <article class="card" data-search="government schemes सरकारी योजना योजनाएं">
+      <div class="icon">📋</div><h3>सरकारी योजनाएँ</h3>
+      <p>अलग-अलग सरकारी योजनाओं की आसान भाषा में जानकारी।</p>
+      <a href="#" onclick="comingSoon(event)">जल्द आ रहा है →</a>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="videos">
+  <div class="section-title">
+    <h2>🎥 Latest YouTube Videos</h2>
+    <p>यहाँ आपके YouTube चैनल के वीडियो लगाए जा सकते हैं।</p>
+  </div>
+  <div class="video">
+    <h3>The Learning Hemraj</h3>
+    <p>अपने YouTube वीडियो का लिंक/Embed Code यहाँ जोड़ें।</p>
+    <a class="btn" href="#" onclick="comingSoon(event)">YouTube Channel जोड़ें</a>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-title">
+    <h2>The Learning Hemraj</h2>
+    <p>हमारा उद्देश्य सरकारी योजनाओं और ऑनलाइन सेवाओं की जानकारी आसान भाषा में समझाना है।</p>
+  </div>
+  <div class="notice">
+    <strong>महत्वपूर्ण:</strong> यह वेबसाइट जानकारी देने के लिए है। किसी योजना के लाभ, पात्रता या आवेदन का अंतिम निर्णय संबंधित सरकारी विभाग/आधिकारिक पोर्टल के नियमों के अनुसार होता है।
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div><strong>THE LEARNING HEMRAJ</strong><br><small>सरकारी योजनाओं की आसान जानकारी</small></div>
+    <div><small>© 2026 The Learning Hemraj | Disclaimer | Privacy Policy</small></div>
+  </div>
+</footer>
+
+<script>
+const searchBox=document.getElementById("searchBox");
+const cards=[...document.querySelectorAll(".card")];
+searchBox.addEventListener("input",()=>{
+  const q=searchBox.value.toLowerCase().trim();
+  cards.forEach(card=>{
+    card.style.display=card.dataset.search.toLowerCase().includes(q) ? "" : "none";
+  });
+});
+function comingSoon(e){
+  e.preventDefault();
+  alert("यह पेज जल्द ही जोड़ा जाएगा।");
+}
+</script>
+</body>
+</html>
